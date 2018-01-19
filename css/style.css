@@ -1,4 +1,83 @@
 body {
     margin: 0;
     padding: 0;
+    background: #B4B8C3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+}
+
+.vertical-rule {
+    width: 2px;
+    height: 75px;
+    background-color: #F1F0ED;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    height: 100px;
+    width: 95%;
+    background: white;
+}
+
+header div ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header div ul li {
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
+header div ul li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#search-icon {
+    height: 60px;
+    width: auto;
+    color: black;
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    position: absolute;
+    top: 80px;
+
+    width: 65%;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    color: white;
+}
+
+.hero h3 {
+    font-size: 1.5em;
 }
